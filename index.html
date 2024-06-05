@@ -3,9 +3,8 @@
     <title>Learning CSS</title>
     <style>
       h1 {
-        color: red;
+        color: purple; border: solid brown;
       }
-
       p {
         margin: 32px;
       }
@@ -20,16 +19,29 @@
       .paragraph-1 {
         background-color: pink;
       }
+      ul {font-style:italic;color:darkblue; font-size:20px;background-color:aliceblue;margin:50px;border-radius:20px;border:solid}
+      ol {list-style-type:upper-roman;color:greenyellow;font-size:20px;background-color: azure;margin:50px;border-radius:20px;border:solid}
+      h1 {color:blueviolet; border:solid greenyellow;}
+      p{color:aqua; border:solid blue;}
+      em{color:darkolivegreen}
+      strong{color:cyan}
+      table th,tr,td{border:solid 5px; padding:10px}
+       main {background-color: aliceblue;}
     </style>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <nav>
+      <a> HOME </a> |
+      <a> ABOUT </a> |
+      <a> GALLERY </a>
+    </nav>
     <header>
       <h1 style="text-decoration: underline">I like cats!
       </h1>
     </header>
     <main>
-      <p class="paragraph-1" style="">
+      <p class="paragraph-1" style="color: blueviolet">
         <em>Nice kitty!</em> Consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -37,7 +49,7 @@
         aliquam etiam.    
       </p>
     
-      <p style="">
+      <p style="color:rgb(115, 180, 180)">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -49,7 +61,7 @@
         erat nam at lectus urna duis.
       </p>
     
-      <p style="">
+      <p style="color:blueviolet;underline">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -60,34 +72,43 @@
         vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
         erat nam at lectus urna duis.
       </p>
-    
+      <ol>
+        <li>birds</li>
+        <li>snakes</li>
+        <li>turtles</li>
+        <li>frogs</li>
+        </ol>
+      <ul>
+        <li>forests</li>
+        <li>deserts</li>
+        <li>rivers</li>
+        <li>streams</li>
+        </ul>
+      
       <table>
         <tr>
-          <th style="">item</th>
-          <th style="">price</th>
+        <th style="text-decoration: underline; text-decoration-color: orangered">item</th>
+          <th style="text-decoration: underline; text-decoration-color: yellowgreen">price</th>
         </tr>
         <tr>
-          <td style="">hotwheels car</td>
-          <td style="">$4.99</td>
+          <td style="color: cornflowerblue">hotwheels car</td>
+          <td style="color: chartreuse">$4.99</td>
         </tr>
         <tr>
-          <td style="">
+          <td style="color:crimson">
             Cabbage patch doll
           </td>
-          <td style="">$1.99</td>
+          <td style="color: indigo">$1.99</td>
         </tr>
       </table>
     
-      <button style="">Buy Now!</button>
+      <button style="color: blue">Buy Now!</button>
     </main>
   
-    <nav>
-      <a> HOME </a> |
-      <a> ABOUT </a> |
-      <a> GALLERY </a>
-    </nav>
+    
     
     <footer>
+      &copy; Made at CadeX
     </footer>
 
     <script src="./script.js"></script>
